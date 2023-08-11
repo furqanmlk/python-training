@@ -13,3 +13,14 @@ with open(FILE_PATH,mode='w') as file:
 
 with open(FILE_PATH,mode='a') as file:
     file.write("\nThis is second line")
+
+# Reading from a File:
+# You can read the contents of a file using methods like read(), 
+# readline(), or readlines().
+
+content = file.read()  # Read the entire file content
+line = file.readline()  # Read one line
+lines = file.readlines()  # Read all lines and return as a list
+
+    
+
